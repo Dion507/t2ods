@@ -1,22 +1,29 @@
-.modal-title,.modal-body ,.modal-footer{
+/* texto del modal en color negro */
+.modal-title, .modal-body, .modal-footer{
     color: black;
 }
 
-.title-jump{
+/* tamaño pequeño para el título personalizado */
+.title-jump{ 
     font-size: 20px;
 }
 
+/* tltura fija del jumbotron */
 .jumbotron {
-    height:400px;
+    height: 400px;
 }
+
+/* tspaciado interno del jumbotron */
 .jumbotron {
     padding: 25px 20px;
 }
 
+/* tamaño del título dentro del jumbotron */
 .jumbotron h1 {
     font-size: 42px;
 }
 
+/* tamaño del texto dentro del jumbotron */
 .jumbotron p {
     font-size: 16px;
 }
