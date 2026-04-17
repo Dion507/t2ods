@@ -27,3 +27,10 @@
 .jumbotron p {
     font-size: 16px;
 }
+
+/* tamaño del texto del titulo de Objetivo*/
+.objetive {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
