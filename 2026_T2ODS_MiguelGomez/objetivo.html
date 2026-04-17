@@ -27,7 +27,7 @@
             <!-- Inicia menu -->
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container">
-                    <a class="navbar-brand" href="#">TALLER #2_ODS</a>
+                    <a class="navbar-brand" href="index.html">TALLER #2_ODS</a>
                     <ul class="nav navbar-nav">
                         <li>
                             <a href="index.html">Inicio</a>
@@ -66,16 +66,73 @@
 
         </div>
         <!-- FIN FILA -->
-          <!-- FILA -->
+        <!-- FILA -->
         <div class="row">
 
             <!-- COLUMNA CENTRADA -->
-            <div class="col-md-6 col-md-offset-3"> 
+            <div class="col-md-10 col-md-offset-1">
                 <!-- panel -->
-                <div class="panel panel-default"> 
-                	<div class="panel-body">
-                		Basic panel example
-                	</div> <!-- fin panel -->
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <!-- carrusel -->
+                        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                        alt="First slide" src="./imagenes/paz2.jpg">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <h1>"17 objetivos, un solo destino: transformar el mundo antes de 2030."</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide"
+                                        alt="Second slide"
+                                        src="./imagenes/eolicas.jpg">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <h1>"Desde erradicar la pobreza hasta frenar el cambio climático; los ODS son la hoja de ruta para que el progreso no deje a nadie atrás."</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item active">
+                                    <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide"
+                                        alt="Third slide"
+                                        src="./imagenes/equidad.jpg">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <h1>"El cambio no es una opción, es una responsabilidad compartida. ¿Qué estás haciendo hoy por el futuro de todos?"</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span
+                                    class="glyphicon glyphicon-chevron-left"></span></a>
+                            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span
+                                    class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+                        <!-- fin carrusel -->
+
+                        <p>
+                            Los Objetivos de Desarrollo Sostenible (ODS) constituyen una ambiciosa agenda global de 17
+                            metas interconectadas que buscan, para el año 2030, erradicar la pobreza y el hambre,
+                            garantizar la salud, una educación de calidad y la igualdad de género, al tiempo que se
+                            asegura el acceso a agua limpia, energía renovable y trabajo decente bajo un modelo de
+                            crecimiento económico inclusivo. Este marco de acción también prioriza la protección del
+                            medio ambiente mediante la lucha contra el cambio climático, la conservación de ecosistemas
+                            marinos y terrestres, y la promoción de ciudades sostenibles y patrones de consumo
+                            responsables, todo ello sustentado en el fortalecimiento de la paz, la justicia y la
+                            creación de alianzas internacionales sólidas que permitan financiar y ejecutar estas
+                            transformaciones estructurales sin dejar a nadie atrás.
+                        </p>
+                        <!-- fin card -->
+                    </div> <!-- fin panel -->
                 </div>
             </div>
             <!--FIN  COLUMNA CENTRADA -->
@@ -115,7 +172,10 @@
 
     </footer> <!--Termina Footer-->
 
-
+    <!-- jQuery -->
+    <script src="./js/jquery.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>

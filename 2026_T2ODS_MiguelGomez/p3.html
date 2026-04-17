@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="stylep3.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylep3.css">
     <link rel="stylesheet" href="./css/estilos.css" type="text/css">
     <link rel="stylesheet" href="./css/estilos2.css" type="text/css">
 
@@ -23,66 +23,70 @@
     <header>
         <h1>
             Objetivos de Desarrollo Sostenible (ODS)</h1>
-            <p><center>Transformando nuestro mundo para un futuro mejor</center>
-            </p>
+        <p>
+            <center>Transformando nuestro mundo para un futuro mejor</center>
+        </p>
     </header>
     <!-- Termina el encabezado -->
     <main>
 
 
 
-        <div id="contenedor" class="container">
+        <div id="contenedor" class="container"> <!-- CONTAINER -->
 
-        <!-- Inicia panel principal con la barra de navegacion -->
-        <div id="panelprincipal" class="panel">
-            <!-- Inicia menu -->
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <a class="navbar-brand" href="#">TALLER #2_ODS</a>
-                    <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="pag2.html">Objetivos</a>
-                        </li>
-                    </ul>
+            <!-- Inicia panel principal con la barra de navegacion -->
+            <div id="panelprincipal" class="panel">
+                <!-- Inicia menu -->
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">TALLER #2_ODS</a>
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="objetivo.html">Objetivos</a>
+                            </li>
+                        </ul>
 
+                    </div>
+                </nav> <!--Termina menu-->
+
+                <!-- Iniciamos la miga de pan -->
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">Taller 2_ODS</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                </ol>
+                <!-- Termina las migas de pan -->
+
+            </div> <!--Termina panel principal-->
+            <!--inicia dropdown-->
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle btn-block" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+                            style="background-color: #333; color: white;">
+                            Información de Colaboradores
+                            <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+                            style="width: 100%; text-align: center;">
+                            <li><a href="#seccion-alianzas" style="font-weight: bold;">Alianzas</a></li>
+                            <li><a href="#seccion-simpatizantes" style="font-weight: bold;">Simpatizantes</a></li>
+
+                            <li><a href="#seccion-ods" style="font-weight: bold;">Ver Objetivos ODS</a></li>
+                            <li role="separator" class="divider"></li>
+
+                        </ul>
+                    </div>
                 </div>
-            </nav> <!--Termina menu-->
-
-            <!-- Iniciamos la miga de pan -->
-            <ol class="breadcrumb">
-                <li>
-                    <a href="#">Taller 2_ODS</a>
-                </li>
-                <li>
-                    <a href="#">Inicio</a>
-                </li>
-            </ol>
-            <!-- Termina las migas de pan -->
-
-        </div> <!--Termina panel principal-->
-        <!--inicia dropdown-->
-<div class="row" style="margin-bottom: 20px;">
-    <div class="col-md-4 col-md-offset-4 text-center"> 
-        <div class="dropdown">
-            <button class="btn btn-dark dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color: #333; color: white;">
-                Información de Colaboradores
-                <span class="caret"></span> 
-            </button>
-            
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 100%; text-align: center;">
-                 <li><a href="#seccion-alianzas"style="font-weight: bold;">Alianzas</a></li>
-                <li><a href="#seccion-simpatizantes"style="font-weight: bold;">Simpatizantes</a></li>
-               
-                <li><a href="#seccion-ods" style="font-weight: bold;">Ver Objetivos ODS</a></li>
-                <li role="separator" class="divider"></li> 
-                
-            </ul>
-        </div>
-    </div> 
-</div><!--fin dropdons-->
+            </div><!--fin dropdons-->
 
             <div id="seccion-alianzas" class="panel mb-4 p-3 border rounded bg-white"> <!--inicia info de alianza-->
                 <h2 class="text-center">COLABORACIONES Y ALIANZAS</h2>
@@ -91,16 +95,19 @@
                     <div class="col-md-6">
                         <h4>Publicidad e industrias tecnológicas</h4>
                         <p align="justify">
-                            Trabajando con las industrias publicitaria y tecnológica, la campaña <strong>ActNow</strong> de la ONU se lanzó en la COP 24. 
-                            Se ha expandido de un bot de Facebook Messenger a una aplicación interactiva gamificada. 
+                            Trabajando con las industrias publicitaria y tecnológica, la campaña <strong>ActNow</strong>
+                            de la ONU se lanzó en la COP 24.
+                            Se ha expandido de un bot de Facebook Messenger a una aplicación interactiva gamificada.
                             Las colaboraciones incluyen grandes películas como <em>Angry Birds, Pitufos y Trolls</em>.
                         </p>
                     </div>
                     <div class="col-md-6">
                         <h4>Industria deportiva</h4>
                         <p align="justify">
-                            <strong>Fútbol por los Objetivos</strong> es una iniciativa que ofrece una plataforma para que la comunidad futbolística global defienda los ODS. 
-                            Es una oportunidad para aprovechar el alcance poderoso del fútbol y trabajar juntos como agentes de cambio.
+                            <strong>Fútbol por los Objetivos</strong> es una iniciativa que ofrece una plataforma para
+                            que la comunidad futbolística global defienda los ODS.
+                            Es una oportunidad para aprovechar el alcance poderoso del fútbol y trabajar juntos como
+                            agentes de cambio.
                         </p>
                     </div>
                 </div>
@@ -109,287 +116,312 @@
 
 
 
-          <div id="seccion-simpatizantes" class="panel mb-4 p-3 border rounded bg-light"><!--inicia info simpatizantes-->
-    <div class="panel-body">
-        <h2 class="text-center">EL CÍRCULO DE SIMPATIZANTES DEL SDG</h2>
-        <p class="text-center"><em>"Todos tienen un papel que desempeñar. Un grito de guerra por nuestro futuro."</em></p>
-        <br>
+            <div id="seccion-simpatizantes" class="panel mb-4 p-3 border rounded bg-light">
+                <!--inicia info simpatizantes-->
+                <div class="panel-body">
+                    <h2 class="text-center">EL CÍRCULO DE SIMPATIZANTES DEL SDG</h2>
+                    <p class="text-center"><em>"Todos tienen un papel que desempeñar. Un grito de guerra por nuestro
+                            futuro."</em></p>
+                    <br>
 
-        <div class="row text-center">
-            <!--simpatizante 1-->
-            
-            <div class="col-md-4 col-sm-6">
-                <div class="thumbnail" style="border: none; background: transparent;">
-                    <h4 class="text-info" style="font-weight: bold;">SAR la Princesa Haya</h4>
-                    
-                    <img src="imagenes/haya.png" alt="SAR la Princesa Haya" class="img-circle img-responsive center-block shadow" style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #5bc0de; margin-top: 15px; margin-bottom: 15px;">
-                    
-                    <div class="caption">
-                        <p class="text-muted" style="min-height: 50px;">Defensora de los ODS y la acción humanitaria.</p>
-                        <p>
-                            <a href="https://www.un.org/sustainabledevelopment/blog/2023/06/hrh-princess-haya-united-nations-messenger-of-peace/" target="_blank" class="btn btn-info btn-sm btn-block" style="color: white !important; font-weight: bold;">MÁS INFORMACIÓN</a>
-                        </p>
+                    <div class="row text-center">
+                        <!--simpatizante 1-->
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="thumbnail" style="border: none; background: transparent;">
+                                <h4 class="text-info" style="font-weight: bold;">SAR la Princesa Haya</h4>
+
+                                <img src="imagenes/haya.png" alt="SAR la Princesa Haya"
+                                    class="img-circle img-responsive center-block shadow"
+                                    style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #5bc0de; margin-top: 15px; margin-bottom: 15px;">
+
+                                <div class="caption">
+                                    <p class="text-muted" style="min-height: 50px;">Defensora de los ODS y la acción
+                                        humanitaria.</p>
+                                    <p>
+                                        <a href="https://www.un.org/sustainabledevelopment/blog/2023/06/hrh-princess-haya-united-nations-messenger-of-peace/"
+                                            target="_blank" class="btn btn-info btn-sm btn-block"
+                                            style="color: white !important; font-weight: bold;">MÁS INFORMACIÓN</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!--fin simpatizante 1-->
+
+
+                        <div class="col-md-4 col-sm-6"> <!--simpatizante 2-->
+                            <div class="thumbnail" style="border: none; background: transparent;">
+                                <h4 class="text-info" style="font-weight: bold;">Daniel Barenboim</h4>
+
+                                <img src="imagenes/daniel.png" alt="Daniel Barenboim"
+                                    class="img-circle img-responsive center-block shadow"
+                                    style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #5bc0de; margin-top: 15px; margin-bottom: 15px;">
+
+                                <div class="caption">
+                                    <p class="text-muted" style="min-height: 50px;">Mensajero de la Paz de las Naciones
+                                        Unidas.</p>
+                                    <p>
+                                        <a href="https://www.un.org/sustainabledevelopment/blog/2023/06/daniel-barenboim-united-nations-messenger-of-peace/"
+                                            target="_blank" class="btn btn-info btn-sm btn-block"
+                                            style="color: white !important; font-weight: bold;">MÁS INFORMACIÓN</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--simpatizante 3-->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="thumbnail" style="border: none; background: transparent;">
+                                <h4 class="text-info" style="font-weight: bold;">Kristen Bell</h4>
+
+                                <img src="imagenes/bell.png" alt="Kristen Bell"
+                                    class="img-circle img-responsive center-block shadow"
+                                    style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #5bc0de; margin-top: 15px; margin-bottom: 15px;">
+
+                                <div class="caption">
+                                    <p class="text-muted" style="min-height: 50px;">Actriz y defensora del acceso al
+                                        agua limpia.</p>
+                                    <p>
+                                        <a href="https://www.un.org/sustainabledevelopment/blog/2023/07/kristen-bell/"
+                                            target="_blank" class="btn btn-info btn-sm btn-block"
+                                            style="color: white !important; font-weight: bold;">MÁS INFORMACIÓN</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-            </div><!--fin simpatizante 1-->
+            </div> <!-- Inicia SECCION ODS -->
+            <div id="seccion-ods" class="panel panel-info" style="margin-top: 30px;">
 
-
-            <div class="col-md-4 col-sm-6">  <!--simpatizante 2-->
-                <div class="thumbnail" style="border: none; background: transparent;">
-                    <h4 class="text-info" style="font-weight: bold;">Daniel Barenboim</h4>
-                    
-                    <img src="imagenes/daniel.png" alt="Daniel Barenboim" class="img-circle img-responsive center-block shadow" style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #5bc0de; margin-top: 15px; margin-bottom: 15px;">
-                    
-                    <div class="caption">
-                        <p class="text-muted" style="min-height: 50px;">Mensajero de la Paz de las Naciones Unidas.</p>
-                        <p>
-                            <a href="https://www.un.org/sustainabledevelopment/blog/2023/06/daniel-barenboim-united-nations-messenger-of-peace/" target="_blank" class="btn btn-info btn-sm btn-block" style="color: white !important; font-weight: bold;">MÁS INFORMACIÓN</a>
-                        </p>
-                    </div>
+                <!-- Inicia ENCABEZADO PRIMEROS 5 OBJETIVOS DE DESARROLLO SOSTENIBLE-->
+                <div class="panel-heading">
+                    <h3 class="panel-title text-center" style="font-weight: bold;">
+                        PRIMEROS 5 OBJETIVOS DE DESARROLLO SOSTENIBLE
+                    </h3>
                 </div>
-            </div>
-  <!--simpatizante 3-->
-            <div class="col-md-4 col-sm-6">
-                <div class="thumbnail" style="border: none; background: transparent;">
-                    <h4 class="text-info" style="font-weight: bold;">Kristen Bell</h4>
-                    
-                    <img src="imagenes/bell.png" alt="Kristen Bell" class="img-circle img-responsive center-block shadow" style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #5bc0de; margin-top: 15px; margin-bottom: 15px;">
-                    
-                    <div class="caption">
-                        <p class="text-muted" style="min-height: 50px;">Actriz y defensora del acceso al agua limpia.</p>
-                        <p>
-                            <a href="https://www.un.org/sustainabledevelopment/blog/2023/07/kristen-bell/" target="_blank" class="btn btn-info btn-sm btn-block" style="color: white !important; font-weight: bold;">MÁS INFORMACIÓN</a>
-                        </p>
+                <!-- Termina ENCABEZADO PRIMEROS 5 OBJETIVOS DE DESARROLLO SOSTENIBLE-->
+
+                <!-- Inicia CUERPO -->
+                <div class="panel-body">
+
+                    <!-- Inicia DESCRIPCION -->
+                    <p class="text-center" style="margin-bottom: 25px;">
+                        <em>Los 17 Objetivos están interconectados...</em>
+                    </p>
+                    <!-- Termina DESCRIPCION -->
+
+                    <!-- Inicia FILA -->
+                    <div class="row">
+
+                        <div class="row row-flex">
+
+
+
+                            <!--  INICIO FILA DE TARJETAS ODS -->
+                            <div class="row">
+
+                                <!--  INICIO TARJETA ODS 1  -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail text-center ods-card-1">
+
+                                        <!-- INICIO IMAGEN -->
+                                        <div class="ods-img-container">
+                                            <img src="imagenes/ods1.png" class="img-responsive">
+                                        </div>
+                                        <!-- FIN IMAGEN -->
+
+                                        <!-- INICIO CONTENIDO -->
+                                        <div class="caption-ods">
+                                            <h4 class="title-ods1">Objetivo 1</h4>
+
+                                            <!-- INICIO DESCRIPCIÓN -->
+                                            <p style="margin-top: 10px;">
+                                                <strong>ODS 1 - Fin de la pobreza:</strong> Poner fin a la pobreza en el
+                                                mundo.
+                                            </p>
+                                            <!-- FIN DESCRIPCIÓN -->
+
+                                        </div>
+                                        <!-- FIN CONTENIDO -->
+
+                                    </div>
+                                </div>
+                                <!-- FIN TARJETA ODS 1 -->
+
+
+                                <!--   INICIO TARJETA ODS 2 -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail text-center ods-card-2">
+
+                                        <!-- INICIO IMAGEN -->
+                                        <div class="ods-img-container">
+                                            <img src="imagenes/ods2.png" class="img-responsive">
+                                        </div>
+                                        <!-- FIN IMAGEN -->
+
+                                        <!-- INICIO CONTENIDO -->
+                                        <div class="caption-ods">
+                                            <h4 class="title-ods2">Objetivo 2</h4>
+
+                                            <!-- INICIO DESCRIPCIÓN -->
+                                            <p style="margin-top: 10px;">
+                                                <strong>ODS 2 - Hambre cero:</strong> Poner fin al hambre y mejorar la
+                                                nutrición.
+                                            </p>
+                                            <!-- FIN DESCRIPCIÓN -->
+
+                                        </div>
+                                        <!-- FIN CONTENIDO -->
+
+                                    </div>
+                                </div>
+                                <!-- FIN TARJETA ODS 2 -->
+
+
+                                <!--  INICIO TARJETA ODS 3 -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail text-center ods-card-3">
+
+                                        <!-- INICIO IMAGEN -->
+                                        <div class="ods-img-container">
+                                            <img src="imagenes/ods3.png" class="img-responsive">
+                                        </div>
+                                        <!-- FIN IMAGEN -->
+
+                                        <!-- INICIO CONTENIDO -->
+                                        <div class="caption-ods">
+                                            <h4 class="title-ods3">Objetivo 3</h4>
+
+                                            <!-- INICIO DESCRIPCIÓN -->
+                                            <p style="margin-top: 10px;">
+                                                <strong>ODS 3 - Salud y bienestar:</strong> Garantizar una vida sana
+                                                para todos.
+                                            </p>
+                                            <!-- FIN DESCRIPCIÓN -->
+
+                                        </div>
+                                        <!-- FIN CONTENIDO -->
+
+                                    </div>
+                                </div>
+                                <!-- FIN TARJETA ODS 3-->
+
+
+                                <!-- INICIO TARJETA ODS 4 -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail text-center ods-card-4">
+
+                                        <!-- INICIO IMAGEN -->
+                                        <div class="ods-img-container">
+                                            <img src="imagenes/ods4.png" class="img-responsive">
+                                        </div>
+                                        <!-- FIN IMAGEN -->
+
+                                        <!-- INICIO CONTENIDO -->
+                                        <div class="caption-ods">
+                                            <h4 class="title-ods4">Objetivo 4</h4>
+
+                                            <!-- INICIO DESCRIPCIÓN -->
+                                            <p style="margin-top: 10px;">
+                                                <strong>ODS 4 - Educación de calidad:</strong> Garantizar educación
+                                                inclusiva y equitativa.
+                                            </p>
+                                            <!-- FIN DESCRIPCIÓN -->
+
+                                        </div>
+                                        <!-- FIN CONTENIDO -->
+
+                                    </div>
+                                </div>
+                                <!-- FIN TARJETA ODS 4 -->
+
+
+                                <!--INICIO TARJETA ODS 5 -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail text-center ods-card-5">
+
+                                        <!-- INICIO IMAGEN -->
+                                        <div class="ods-img-container">
+                                            <img src="imagenes/ods5.png" class="img-responsive">
+                                        </div>
+                                        <!-- FIN IMAGEN -->
+
+                                        <!-- INICIO CONTENIDO -->
+                                        <div class="caption-ods">
+                                            <h4 class="title-ods5">Objetivo 5</h4>
+
+                                            <!-- INICIO DESCRIPCIÓN -->
+                                            <p style="margin-top: 10px;">
+                                                <strong>ODS 5 - Igualdad de género:</strong> Empoderar a mujeres y niñas
+                                            </p>
+                                            <!-- FIN DESCRIPCIÓN -->
+
+                                        </div>
+                                        <!-- FIN CONTENIDO -->
+
+                                    </div>
+                                </div>
+                                <!-- FIN TARJETA ODS 5  -->
+
+                            </div>
+                            <!-- FIN FILA DE TARJETAS ODS-->
+                            <!-- Termina TARJETA ODS 5 -->
+
+                        </div>
                     </div>
+                    <!-- Termina cuErpo-->
+
                 </div>
-            </div>
+                <!-- Termina SECCION ODS -->
+                <div class="panelPaginacion"> <!--Inicio clase paginacion-->
+                    <div class="panel-body text-center"> <!--Inicia paginacion-->
+                        <ul class="pagination">
+                            <li><a href="p2.html">Atras</a></li>
+                            <li><a href="index.html">1</a></li>
+                            <li><a href="p2.html">2</a></li>
+                            <li class="active"><a href="p3.html">3</a></li>
+                        </ul><!--Termina paginacion-->
 
-        </div>
-    </div>
-</div> <!-- Inicia SECCION ODS -->
-<div id="seccion-ods" class="panel panel-info" style="margin-top: 30px;">
+                    </div>
 
-    <!-- Inicia ENCABEZADO PRIMEROS 5 OBJETIVOS DE DESARROLLO SOSTENIBLE-->
-    <div class="panel-heading">
-        <h3 class="panel-title text-center" style="font-weight: bold;">
-            PRIMEROS 5 OBJETIVOS DE DESARROLLO SOSTENIBLE
-        </h3>
-    </div>
-    <!-- Termina ENCABEZADO PRIMEROS 5 OBJETIVOS DE DESARROLLO SOSTENIBLE-->
-    
-    <!-- Inicia CUERPO -->
-    <div class="panel-body">
+                </div><!--termina clase paginacion-->
 
-        <!-- Inicia DESCRIPCION -->
-        <p class="text-center" style="margin-bottom: 25px;">
-            <em>Los 17 Objetivos están interconectados...</em>
-        </p>
-        <!-- Termina DESCRIPCION -->
-
-        <!-- Inicia FILA -->
-        <div class="row">
-
-          <div class="row row-flex">
-
-    
-
-   <!--  INICIO FILA DE TARJETAS ODS -->
-<div class="row">
-
-    <!--  INICIO TARJETA ODS 1  -->
-    <div class="col-md-4 col-sm-6">
-        <div class="thumbnail text-center ods-card-1">
-            
-            <!-- INICIO IMAGEN -->
-            <div class="ods-img-container">
-                <img src="imagenes/ods1.png" class="img-responsive">
-            </div>
-            <!-- FIN IMAGEN -->
-
-            <!-- INICIO CONTENIDO -->
-            <div class="caption-ods">
-                <h4 class="title-ods1">Objetivo 1</h4>
-
-                <!-- INICIO DESCRIPCIÓN -->
-                <p style="margin-top: 10px;">
-                    <strong>ODS 1 - Fin de la pobreza:</strong> Poner fin a la pobreza en el mundo.
-                </p>
-                <!-- FIN DESCRIPCIÓN -->
-
-            </div>
-            <!-- FIN CONTENIDO -->
-
-        </div>
-    </div>
-    <!-- FIN TARJETA ODS 1 -->
+            </div> <!-- Termina contenedor principal  -->
 
 
-    <!--   INICIO TARJETA ODS 2 -->
-    <div class="col-md-4 col-sm-6">
-        <div class="thumbnail text-center ods-card-2">
-            
-            <!-- INICIO IMAGEN -->
-            <div class="ods-img-container">
-                <img src="imagenes/ods2.png" class="img-responsive">
-            </div>
-            <!-- FIN IMAGEN -->
 
-            <!-- INICIO CONTENIDO -->
-            <div class="caption-ods">
-                <h4 class="title-ods2">Objetivo 2</h4>
+            <footer class="pies"> <!--Inicia Footer-->
+                <div class="container text-center">
+                    <center>
+                        <a href="https://www.facebook.com/PNUD/" target="_blank"> <strong> <img
+                                    src="imagenes/Iconos/facebook-svgrepo-com.svg" alt="" width="50px"
+                                    height="50px"></strong></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.instagram.com/UNDP/" target="_blank"> <strong> <img
+                                    src="imagenes/Iconos/instagram-svgrepo-com.svg" alt="" width="50px"
+                                    height="50px"></strong></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://x.com/pnud/" target="_blank"> <strong> <img
+                                    src="imagenes/Iconos/twitter-svgrepo-com.svg" alt="" width="50px"
+                                    height="50px"></strong></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    </center>
 
-                <!-- INICIO DESCRIPCIÓN -->
-                <p style="margin-top: 10px;">
-                    <strong>ODS 2 - Hambre cero:</strong> Poner fin al hambre y mejorar la nutrición.
-                </p>
-                <!-- FIN DESCRIPCIÓN -->
-
-            </div>
-            <!-- FIN CONTENIDO -->
-
-        </div>
-    </div>
-    <!-- FIN TARJETA ODS 2 -->
-
-
-    <!--  INICIO TARJETA ODS 3 -->
-    <div class="col-md-4 col-sm-6">
-        <div class="thumbnail text-center ods-card-3">
-            
-            <!-- INICIO IMAGEN -->
-            <div class="ods-img-container">
-                <img src="imagenes/ods3.png" class="img-responsive">
-            </div>
-            <!-- FIN IMAGEN -->
-
-            <!-- INICIO CONTENIDO -->
-            <div class="caption-ods">
-                <h4 class="title-ods3">Objetivo 3</h4>
-
-                <!-- INICIO DESCRIPCIÓN -->
-                <p style="margin-top: 10px;">
-                    <strong>ODS 3 - Salud y bienestar:</strong> Garantizar una vida sana para todos.
-                </p>
-                <!-- FIN DESCRIPCIÓN -->
-
-            </div>
-            <!-- FIN CONTENIDO -->
-
-        </div>
-    </div>
-    <!-- FIN TARJETA ODS 3-->
-
-
-    <!-- INICIO TARJETA ODS 4 -->
-    <div class="col-md-4 col-sm-6">
-        <div class="thumbnail text-center ods-card-4">
-            
-            <!-- INICIO IMAGEN -->
-            <div class="ods-img-container">
-                <img src="imagenes/ods4.png" class="img-responsive">
-            </div>
-            <!-- FIN IMAGEN -->
-
-            <!-- INICIO CONTENIDO -->
-            <div class="caption-ods">
-                <h4 class="title-ods4">Objetivo 4</h4>
-
-                <!-- INICIO DESCRIPCIÓN -->
-                <p style="margin-top: 10px;">
-                    <strong>ODS 4 - Educación de calidad:</strong> Garantizar educación inclusiva y equitativa.
-                </p>
-                <!-- FIN DESCRIPCIÓN -->
-
-            </div>
-            <!-- FIN CONTENIDO -->
-
-        </div>
-    </div>
-    <!-- FIN TARJETA ODS 4 -->
-
-
-    <!--INICIO TARJETA ODS 5 -->
-    <div class="col-md-4 col-sm-6">
-        <div class="thumbnail text-center ods-card-5">
-            
-            <!-- INICIO IMAGEN -->
-            <div class="ods-img-container">
-                <img src="imagenes/ods5.png" class="img-responsive">
-            </div>
-            <!-- FIN IMAGEN -->
-
-            <!-- INICIO CONTENIDO -->
-            <div class="caption-ods">
-                <h4 class="title-ods5">Objetivo 5</h4>
-
-                <!-- INICIO DESCRIPCIÓN -->
-                <p style="margin-top: 10px;">
-                    <strong>ODS 5 - Igualdad de género:</strong> Empoderar a mujeres y niñas
-                </p>
-                <!-- FIN DESCRIPCIÓN -->
-
-            </div>
-            <!-- FIN CONTENIDO -->
-
-        </div>
-    </div>
-    <!-- FIN TARJETA ODS 5  -->
-
-</div>
-<!-- FIN FILA DE TARJETAS ODS-->
-            <!-- Termina TARJETA ODS 5 -->
-
-        </div>
-    </div>
-    <!-- Termina cuErpo-->
-
-</div>
-<!-- Termina SECCION ODS -->
-              <div class="panelPaginacion"> <!--Inicio clase paginacion-->
-        <div class="panel-body text-center"> <!--Inicia paginacion-->
-            <ul class="pagination">
-                <li><a href="index.html">1</a></li>
-                <li class="active"><a href="p2.html">2</a></li>
-                <li><a href="p3.html">3</a></li>
-                <li><a href="pag4.html">siguiente</a></li>
-            </ul><!--Termina paginacion-->
-
-        </div>
-
-    </div><!--termina clase paginacion-->
-
-    </div> <!-- Termina contenedor principal  -->
-
-
-    
-    <footer class="pies"> <!--Inicia Footer-->
-        <div class="container text-center">
-            <center>
-                <a href="" target="_blank"> <strong> <img src="imagenes/face.jpg" alt="" width="50px"
-                            height="50px"></strong></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="" target="_blank"> <strong> <img src="imagenes/ig.png" alt="" width="50px"
-                            height="50px"></strong></a> &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="" target="_blank"> <strong> <img src="imagenes/redX.png" alt="" width="50px"
-                            height="50px"></strong></a> &nbsp;&nbsp;&nbsp;&nbsp;
-            </center>
-
-            <br>
-            <medium><strong> UNIVERSIDAD TECNOLÓGICA DE PANAMÁ </strong></medium></br>
-            <br>
-            <medium><strong> CENTRO REGIONAL DE COCLÉ </strong></medium></br>
-            <br>
-            <medium> FACULTAD DE INGENIERÍA EN SISTEMAS </medium>
-            <br>
-            <medium> Desarrollo de Software VII &copy; Facilitadora del Curso: Ing. María Y. Tejedor M. de Fernández;
-            </medium>
-            <br>
-            <medium> Asignación desarrollada por: Gomez, Miguel</medium>
-            <br> <br>
-        </div>
-
-    </footer> <!--Termina Footer-->
+                    <br>
+                    <medium><strong> UNIVERSIDAD TECNOLÓGICA DE PANAMÁ </strong></medium></br>
+                    <br>
+                    <medium><strong> CENTRO REGIONAL DE COCLÉ </strong></medium></br>
+                    <br>
+                    <medium> FACULTAD DE INGENIERÍA EN SISTEMAS </medium>
+                    <br>
+                    <medium> Desarrollo de Software VII &copy; Facilitadora del Curso: Ing. María Y. Tejedor M. de
+                        Fernández;
+                    </medium>
+                    <br>
+                    <medium> Asignación desarrollada por: Gomez, Miguel - Tejada, Gerardo - Ubarte, Daniel - Gonzales,
+                        Oliver</medium>
+                    <br> <br>
+                </div>
+            </footer> <!--Termina Footer-->
     </main>
-    
+
 </body>
 
 </html>

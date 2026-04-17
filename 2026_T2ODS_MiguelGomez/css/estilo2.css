@@ -34,3 +34,6 @@
     font-weight: bolder;
 }
 
+.carousel-caption h1{
+    color: rgb(255, 255, 255);
+}
